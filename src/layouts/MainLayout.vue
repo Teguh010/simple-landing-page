@@ -60,7 +60,7 @@
       </div>
     </q-footer>
 
-    <q-drawer side="right" v-model="drawerRight2" bordered overlay :width="300">
+    <q-drawer side="right" v-model="drawerRight2" bordered overlay :width="200">
       <q-scroll-area class="fit">
         <div class="q-pa-sm">
           <q-list style="min-width: 100px">
