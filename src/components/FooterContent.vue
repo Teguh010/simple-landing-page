@@ -253,7 +253,7 @@ export default {};
   box-shadow: none !important;
   margin: 10px;
   width: unset;
-  height: 142px;
+  height: 155px;
 }
 .footer-card-parent {
   background: transparent !important;
