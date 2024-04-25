@@ -137,7 +137,7 @@ export default defineComponent({
   }
 
   .experience {
-    font-weight: 600;
+    font-weight: 900;
     color: #4a77ff;
   }
 
@@ -146,6 +146,9 @@ export default defineComponent({
     border-radius: 5px;
     padding: 4px 8px;
     display: inline-block;
+    font-weight: 900;
+    color: rgba(94, 98, 111, 1);
+;
   }
 
   .description {
