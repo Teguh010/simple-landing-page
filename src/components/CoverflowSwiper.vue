@@ -27,7 +27,7 @@
         :centered-slides="true"
         :navigation="true"
         :space-between="0"
-        :slides-per-view="$q.screen.lt.md ? 1.5 : 2.3"
+        :slides-per-view="$q.screen.lt.md ? 1.4 : 2.3"
         :coverflow-effect="{
           rotate: 0,
           stretch: $q.screen.lt.md ? 200 : 160,
