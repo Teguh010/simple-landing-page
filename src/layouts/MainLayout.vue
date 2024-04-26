@@ -54,7 +54,7 @@
         </q-toolbar>
       </q-header>
     </div>
-    <q-footer style="background: #fbfbfb">
+    <q-footer style="background: #fbfbfb" class="q-pt-xl">
       <div class="main-footer">
         <FooterContent />
       </div>
@@ -144,13 +144,13 @@ function updateSelectedMenu(item) {
   background: linear-gradient(151.17deg, #26c2b9 8.69%, #288be7 126.06%);
 }
 .main-header {
-  max-width: 1400px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 15px 0px;
 }
 
 .main-footer {
-  max-width: 1400px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 

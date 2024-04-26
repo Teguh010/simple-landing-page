@@ -69,17 +69,17 @@
                     class="flex hero-cards-container q-py-md fadein-atonce-500"
                   >
                     <q-card class="hero-card" flat>
-                      <q-separator inset color="white" />
-                      <q-card-section>
+                      <q-separator  color="white" />
+                      <q-card-section class="hero-section-card">
                         <div class="third-title">평균 월 120만원</div>
                         <div class="forth-title">
                           임금을 해당 국가를 기준으로 계산합니다.
                         </div>
                       </q-card-section>
                     </q-card>
-                    <q-card class="hero-card" flat>
+                    <q-card class="hero-card q-pl-md" flat>
                       <q-separator inset color="white" />
-                      <q-card-section>
+                      <q-card-section >
                         <div class="third-title">최대 3회 인력교체</div>
                         <div class="forth-title">
                           막상 채용해보니 맞지 않아도 걱정하지 마세요.
@@ -88,7 +88,7 @@
                     </q-card>
                     <q-card class="hero-card" flat>
                       <q-separator inset color="white" />
-                      <q-card-section>
+                      <q-card-section >
                         <div class="third-title">평균 3일, 최대 10일</div>
                         <div class="forth-title">
                           급하게 사람이 필요한 경우에도 빠른 채용이 가능합니다.
@@ -220,6 +220,9 @@ export default {
   background: transparent !important;
   width: 180px !important;
 }
+.hero-section-card {
+  padding: 16px 0px !important;
+}
 .forth-title {
   font-weight: 900;
   font-size: 16px;
@@ -227,7 +230,7 @@ export default {
   color: rgba(255, 255, 255, 0.8);
 }
 .top-container {
-  max-width: 1400px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
